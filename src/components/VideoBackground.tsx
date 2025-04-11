@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import blenderVideo from '../assets/Blender-video.mp4';
 
 const VideoBackground = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -13,7 +14,7 @@ const VideoBackground = () => {
         muted
         playsInline
       >
-        <source src="/src/assets/Blender-video.mp4" type="video/mp4" />
+        <source src={blenderVideo} type="video/mp4" />
       </video>
     </div>
   );
