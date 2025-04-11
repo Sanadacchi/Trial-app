@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import enterSound from '../assets/enter.mp3';
 import { useNavigate } from 'react-router-dom';
